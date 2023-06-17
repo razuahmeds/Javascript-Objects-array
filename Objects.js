@@ -1,5 +1,5 @@
 // object creation
-const person2 = { 
+const person23 = { 
     name: 'nazmlu',
     age: 20
 };
@@ -69,7 +69,7 @@ const student = {
 //console.log(student.marks.science);
 
 
-const person1 = {
+const person0 = {
     name: 'John',
     greet: function() { console.log('hello','hello','hello','hello',111); }
 };
@@ -97,4 +97,30 @@ const text = {
         console.log('The name is' + ' ' + this.name + ' ' + surname); }
 };
 
-text.greet();
+//text.greet();
+
+
+
+function Person () {
+    this.name = 'RAZU',
+    this.age = 23,
+    this.name2 = 'Razu',
+    this.age = 23,
+    this.name3 = 'rAzu',
+    this.age = 23,
+    this.name4 = 'raZu',
+    this.age = 23,
+
+     this.greet = function () {
+        console.log('hello');
+    }
+}
+
+
+const person1 = new Person();
+const person2 = new Person();
+
+console.log(person1.name); 
+console.log(person2.name2);  
+console.log(person2.name3);
+console.log(person2.name4);
