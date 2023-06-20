@@ -212,5 +212,46 @@ let barray = ['work', 'eat', 'sleep', 'exercise'];
 
 
 barray.pop();
-console.log(barray); 
+//console.log(barray); 
 
+
+const student = {
+  name: 'RAJU',
+  class: 12,
+  age: 18
+}
+
+for ( let key in student ) {
+
+  //console.log(`${key} => ${student[key]}`);
+}
+
+
+
+const salaries= {
+  RAZU : 24000,
+  AKSHE : 34000,
+  AJMERE : 55000
+}
+
+for ( let i in salaries) {
+
+  let salary = "$" + salaries[i];
+
+
+  //console.log(`${i} : ${salary}`);
+}
+
+const stringn = 'Rukunuzzaman';
+
+for (let i in stringn) {
+    //console.log(stringn[i]);
+}
+
+
+
+const arr = [ 'Hello', 6, 'RAZU',  'text' ];
+
+for (let x in arr) {
+   // console.log(arr[x]);
+}
