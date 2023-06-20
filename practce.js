@@ -255,3 +255,18 @@ const arr = [ 'Hello', 6, 'RAZU',  'text' ];
 for (let x in arr) {
    // console.log(arr[x]);
 }
+
+
+
+
+
+const a = 45;
+const b = 49;
+const c = 50;
+
+console.log(a + b);
+console.log(b - a); 
+console.log(c * b * a);
+console.log(c - b - a);
+console.log(c / b / a);
+console.log(c + b + a);
