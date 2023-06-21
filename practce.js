@@ -188,10 +188,6 @@ dailyActivities3[2] = 'jhgi';
 //console.log(dailyActivities3); 
 
 
-
-
-
-
 let dailyarray = [ 'If', 'need '];
 
 dailyarray[3] = 'element ';
@@ -227,7 +223,6 @@ for ( let key in student ) {
 }
 
 
-
 const salaries= {
   RAZU : 24000,
   AKSHE : 34000,
@@ -255,9 +250,6 @@ const arr = [ 'Hello', 6, 'RAZU',  'text' ];
 for (let x in arr) {
    // console.log(arr[x]);
 }
-
-
-
 
 
 const a = 45;
