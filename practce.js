@@ -263,6 +263,7 @@ for (let x in arr) {
 const a = 45;
 const b = 49;
 const c = 50;
+const d = [60, 70];
 
 console.log(a + b);
 console.log(b - a); 
@@ -270,3 +271,5 @@ console.log(c * b * a);
 console.log(c - b - a);
 console.log(c / b / a);
 console.log(c + b + a);
+console.log(d);
+console.log(c);
