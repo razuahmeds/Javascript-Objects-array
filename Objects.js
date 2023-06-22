@@ -120,7 +120,27 @@ function Person () {
 const person1 = new Person();
 const person2 = new Person();
 
-console.log(person1.name); 
-console.log(person2.name2);  
-console.log(person2.name3);
-console.log(person2.name4);
+//console.log(person1.name); 
+//console.log(person2.name2);  
+//console.log(person2.name3);
+//console.log(person2.name4);
+
+
+const students = {
+
+  
+    firstName: 'Monica',
+    lastName: 'RAZU',
+    
+    
+    get getName() {
+        return this.lastName;
+    }
+};
+
+
+console.log(student.lastName); 
+
+
+console.log(student.getName);
+
